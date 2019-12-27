@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>John Simpson Architects</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+
+	<link href='http://fonts.googleapis.com/css?family=Cinzel:400,700,900' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Cardo:400,700,400italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="c/fa/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="c/style.css">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+	
+
+	<script>
+	$(document).ready(function() {
+		$('.contactlinks > li > a').click(function(event){
+		event.preventDefault();//stop browser to take action for clicked anchor
+ 
+		//get displaying tab content jQuery selector
+		var active_tab_selector = $('.contactlinks > li.active > a').attr('href');					
+ 
+		//find actived navigation and remove 'active' css
+		var actived_nav = $('.contactlinks > li.active');
+		actived_nav.removeClass('active');
+ 
+		//add 'active' css into clicked navigation
+		$(this).parents('li').addClass('active');
+ 
+		//hide displaying tab content
+		$(active_tab_selector).removeClass('active');
+		$(active_tab_selector).addClass('hide');
+ 
+		//show target tab content
+		var target_tab_selector = $(this).attr('href');
+		$(target_tab_selector).removeClass('hide');
+		$(target_tab_selector).addClass('active');
+	     });
+	  });
+	</script>
+
+	<script>
+		$(document).ready(function(e) { 
+	    $("#subcatbutton").click(function(){    
+	        $("#archcategorymob").slideToggle(350);
+	        return false;
+	     });
+	    
+	    $('#archcategorymob > li > a').click(function(){
+	        $('#archcategorymob').hide(350);
+	        return false;
+	    });
+	});
+
+	</script>
+
+
+
+
+	<script>
+	$(document).ready(function() {
+		$('#archcategorymob > li > a').click(function(event){
+		event.preventDefault();//stop browser to take action for clicked anchor
+ 
+		//get displaying tab content jQuery selector
+		var active_tab_selector = $('#archcategorymob > li.active > a').attr('href');					
+ 
+		//find actived navigation and remove 'active' css
+		var actived_nav = $('#archcategorymob > li.active');
+		actived_nav.removeClass('active');
+ 
+		//add 'active' css into clicked navigation
+		$(this).parents('li').addClass('active');
+ 
+		//hide displaying tab content
+		$(active_tab_selector).removeClass('active');
+		$(active_tab_selector).addClass('hide');
+ 
+		//show target tab content
+		var target_tab_selector = $(this).attr('href');
+		$(target_tab_selector).removeClass('hide');
+		$(target_tab_selector).addClass('active');
+	     });
+	  });
+	</script>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<!-- H E A D E R ************************************************ -->
+
+	<div id="header">
+		<div id="preheader">
+			<div class="left">
+				<h3>Chartered Architects & Urban Designers</h3>
+			</div>
+
+			<div class="right">
+				<h3>John Simpson Architects Ltd.</h3>
+			</div>
+		</div>
+
+		<div id="jsa">
+			<a href="index.html"><h1>JOHN SIMPSON ARCHITECTS</h1></a>
+		</div>
+
+<!-- m o b i l e   n a v i g a t i o n * * * * * * * * * * -->
+
+		<div id="navmob">
+			<label id="menubutton" class="collapse" for="_1"><i class="fa fa-bars"></i></label>
+  			<input id="_1" type="checkbox">
+			<div id="moblist">
+				<ul>
+					<li><a href="index.html"><h2>Home</h2></a></li>
+					<li><a href="projects-architecture.html"><h2>Architectural Projects</h2></a></li>
+					<li><a href="projects-urban-design.html"><h2>Urban Design Projects</h2></a></li>
+					<li><a href="projects-interiors.html"><h2>Interior Design Projects</h2></a></li>
+					<li><a href="projects-furniture.html"><h2>Furniture Projects</h2></a></li>
+					<li><a href="awards.html"><h2>Awards</h2></a></li>
+					<li><a href="about.html"><h2>Practice</h2></a></li>
+					<li><a href="personnel.html"><h2>Personnel</h2></a></li>
+					<li><a href="clients.html"><h2>Clients</h2></a></li>
+					<li><a href="contact.html"><h2>Contact</h2></a></li>
+				</ul>
+			</div>
+		</div>
+
+<!-- c o m p u t e r   n a v i g a t i o n * * * * * * * * -->
+
+		<div id="nav">
+			<ul>
+				<li><a href="index.html"><h2>Home</h2></a></li>
+				<li><a href="projects-architecture.html"><h2>Projects</h2></a></li>
+				<li><a href="awards.html"><h2>Awards</h2></a></li>
+				<li><a href="about.html"><h2>Practice</h2></a></li>
+				<li><a href="personnel.html"><h2>Personnel</h2></a></li>
+				<li><a href="clients.html"><h2>Clients</h2></a></li>
+				<li><a href="contact.html"><h2>Contact</h2></a></li>
+			</ul>
+		</div>
+	</div>
+
+<!-- C O N T E N T *********************************************** -->
+
+	<div id="container">
+		<div id="content">
+
+			<div class="categories">
+				<ul  class="contactlinks">
+	        		<li class="active"><a href="#london">London</a></li>
+	        		<li ><a href="#belfast">Belfast</a></li>
+	        		<li ><a href="#recruitment">Recruitment</a></li>
+	        	</ul>
+			</div>
+
+
+			<!--MOBILE- - - - - - - - - - - - - - - - -->
+	        	<div class="projlistmob">
+	        		<a href="#subcatbutton" id="subcatbutton"><h2>CONTACT</h2>
+	        		<i class="fa fa-angle-double-down"></i></a>
+
+		        	<ul id="archcategorymob" style="display:none;">
+
+			        	<li class="active"><a href="#london">London</a></li>
+		        		<li ><a href="#belfast">Belfast</a></li>
+		        		<li ><a href="#recruitment">Recruitment</a></li>
+
+		        	</ul>
+	        	</div>
+<!-- END MOBILE- - - - - - - - - - - - - - - - -->
+
+
+			<div id="contactus">
+				
+				<section id="london" class="active">
+						<div id="contact">
+							<h2>John Simpson Architects</h2>
+							<p>29 Great James Street</p>
+							<p>Bloomsbury</p>
+							<p>London WC1N 3ES</p>
+
+							<p>Tel: +44 (0)20 7405 1285</p>
+							<p>Fax: +44 (0)20 7831 1781</p>
+
+							<p>E-mail: <a href="mailto:info@johnsimpsonarchitects.com">info@johnsimpsonarchitects.com</a></p>
+						</div>
+
+						<div class="recmap">
+							<div id="map">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1241.2758258973663!2d-0.11701500000000001!3d51.521441!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b49e76b2eb9%3A0x9311ea6c3d84015c!2sSimpson+John+%26+Partners!5e0!3m2!1ses!2suk!4v1427246534078"></iframe>
+							</div>
+
+						</div>
+				</section>
+
+				<section id="belfast" class="hide">
+						<div id="contact">
+							<h2>John Simpson Architects</h2>
+							<p>5 Cromac Avenue</p>
+							<p>The Gasworks</p>
+							<p>Belfast BT7 2JA</p>
+
+							<p>Tel: +44 (0)28 9044 7616</p>
+							<p></p>
+							
+							<p>E-mail: <a href="mailto:info@johnsimpsonarchitects.com">info@johnsimpsonarchitects.com</a></p>
+						</div>
+
+						<div class="recmap">
+							<div id="map">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2311.76532861335!2d-5.923596200000004!3d54.59050899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486108fc22628ced%3A0xf1f6247267fd7c8d!2s5+Cromac+Ave%2C+Belfast+BT7+2JD!5e0!3m2!1sen!2suk!4v1435745586518"></iframe>
+							</div>
+
+						</div>
+			
+				</section>
+
+				<section id="recruitment" class="hide">
+					
+
+					<div class="apply">
+						<p>To apply for any of the positions offered here please send a CV and Covering letter addressed to Lucy Smith at: <a href="mailto:jspadmin@johnsimpsonarchitects.com">jspadmin@johnsimpsonarchitects.com</p></a>
+
+						<p>We operate a policy where we keep CVs sent to us for a period of 6 months. You may send us applications for Architects, Architectural Technicians, Urban Designers/Planners and Administrative Posts, which we will consider should a vacancy arise.</p>
+
+						<h3>John Simpson Architects Limited is an Equal Opportunities Employer</h3>
+					</div>
+
+					<div class="joboffer">
+
+						<h2>ADMINISTRATIVE ASSISTANT</h2>
+
+						<p>An enthusiastic administration assistant is required to join a busy classical architecture firm in central London. Day to day tasks would include the management of the reception area, answering all inquiries the office receives and supporting the directors and architects with projects, publicity documents and reports. Alongside this there would also be the opportunity to develop a social media presence for the company including website design. A good knowledge of Microsoft Office is required and experience of Photoshop, Illustrator or Indesign would be a bonus but not essential. This post would ideally be suited for anyone looking to gain experience in a busy office environment.</p>
+
+						<p>An interest in architecture is an advantage but not essential. Basic training will be provided in the use of design programmes and other software required for daily tasks in an architectural office.</p>
+
+						<p>RESPONSIBILITIES INCLUDE:
+							<br>-Reception duties
+							<br>-Personal assistant duties 
+							<br>-Scheduling meetings 
+							<br>-Procuring office supplies 
+							<br>-Basic maintenance around office 
+							<br>-Archiving and updating literature in library 
+							<br>-Publicity, including submitting for awards and bidding for new work 
+							<br>-Updating website and social media 
+							<br>-Writing reports and submitting planning applications 
+							<br>-Project and product research 
+							<br>-Handling drawing packages 
+							<br>-Making minor changes on drawings and images using AutoCAD and Photoshop</p>
+
+						<p>SKILLS DESIRED INCLUDE: 
+							<br>- Minimum 2.2 undergraduate degree (or equivalent) 
+							<br>- Professional communication skills 
+							<br>- Professional organisation skills 
+							<br>- Proficiency in Microsoft Office 
+							<br>- Ability to time manage and prioritise tasks whilst working to tight deadlines and under pressure in a busy office environment 
+							<br>- A keen eye for detail and care in one's own work</p>
+
+					</div>
+
+				</section>
+			</div>
+		</div>
+	</div>	
+
+<!-- F O O T E R ************************************************ -->
+	<div class="push"></div>
+	<div class="clearer"></div>
+
+</div> <!--end wrapper-->
+
+	<div id="footer" >
+			<div id="footercontent">
+
+				<a href="#" class="back-to-top"><div id="logo" class="txtout">
+						<h1>John Simpson Architects Ltd.</h1>
+						<h2>Classical and Traditional Architecture, Urbanism and Interior designers</h2>
+				</div></a>
+
+
+				<div id="footertop">
+					<a href="http://www.architecture.com/FindAnArchitect/ArchitectPractices/JohnSimpsonArchitectsLimited/JohnSimpsonArchitectsLimited.aspx" target="_blank"><div id="riba" class="txtout">
+						<h2>John Simpson Architects is a Chartered Architectural practice member of the Royal National Institute of British Architects</h2>
+					</div></a>
+
+					<a href="http://www.intbau.org/john-simpson/" target="_blank"><div id="intbau" class="txtout">
+						<h2>Members of the INTBAU: International Network for Traditional Building, Architecture and Urbanism</h2>
+					</div></a>
+				</div>
+
+				<div id="footertxt">
+					<p>JOHN SIMPSON ARCHITECTS LTD. &nbsp; &nbsp; &verbar; &nbsp; &nbsp;
+					29 Great James St, London WC1N 3ES, UK &nbsp; &nbsp; &verbar; &nbsp; &nbsp;
+					+44 20 7405 1285 &nbsp; &nbsp; &verbar; &nbsp; &nbsp;
+					<a href="mailto:info@johnsimpsonarchitects.com">info@johnsimpsonarchitects.com</a> &nbsp; &nbsp; &verbar; &nbsp; &nbsp;
+					<a href="https://www.linkedin.com/company/john-simpson-architects-london-limited"  target="_blank"><i class="fa fa-linkedin fa-lg"></i></a></p>
+				</div>
+			</div>	
+			
+	</div>
+
+
+<!-- S C R I P T S ********************************************** -->
+	
+
+
+
+
+</body>
+</html>

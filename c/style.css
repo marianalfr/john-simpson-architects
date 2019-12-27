@@ -1,0 +1,3636 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	height: 100%;
+	min-height: 100%;
+}
+
+body{
+	background: #EDECEC;
+	font-family: 'Cardo', serif;
+	color: #303030;
+	padding: 0;
+	margin: 0;
+	min-height: 100%;
+	position: relative;
+}
+
+ul, li{
+	list-style: none;
+}
+
+h1{
+	font-family: 'Cinzel', serif;
+	text-transform: capitalize;
+	font-weight: normal;
+	font-size: 23pt;
+	margin: 0;
+}
+
+h2{
+	font-family: 'Cinzel', serif;
+	font-weight: normal;
+}
+
+h3{
+	font-weight: normal;
+	font-size: 8pt;
+	line-height: 8px;
+	margin: 0;
+}
+
+p{
+	font-weight: normal;
+	font-size: 11pt;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	margin: 0;
+	outline: 0;
+}
+
+a{color:#303030; }
+a:hover, a:hover .fa{color: #7E0E09;}
+a:visited, {color:#303030; }
+a:active{color:#303030;}
+
+.txtout{
+	text-indent: -9999px;
+}
+
+/* H E A D E R ****************************************************/
+
+#header{
+	width: 100%;
+	margin: 0 auto;
+
+}
+
+#preheader{
+	width: 100%;
+	height: 17px;
+	margin: 10px auto;
+	border-bottom: 1px solid #000000;
+	line-height: 4px;
+	display: none;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+#jsa{
+	width: 100%;
+	height: 55px;
+	text-align: center;
+	border-bottom: 2px solid #000000;
+	margin: 0px auto 0 auto;
+	padding-top: 20px;
+	position: relative;
+	z-index: 90;
+	background-color: #EDECEC; 
+}
+
+#navmob{
+	display: none;
+}
+
+#nav{
+	width: 100%;
+	height: 30px;
+	position: relative;
+	z-index: 79;
+	background: rgba(237,236,236,0.5);
+
+}
+
+#nav ul{
+	width: 800px;
+	height: 30px;
+	font-size: 10px;
+	font-family: 'Cardo', serif;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	z-index: 80;
+}
+
+#nav ul li{
+	width: 14.28%;
+	float: left;
+	margin: 0;
+	height: 18px;
+	padding: 5px 0 8px 0;
+
+}
+
+#nav h2{
+	font-weight: 400;
+}
+
+#nav:hover{
+	/*color: #9B9B9B;*/
+	/*background: #EDECEC;*/
+}
+
+
+/* F O O T E R ****************************************************/
+
+
+#footer{
+	width: 100%;
+	height: 60px;
+	background-color: #5c6467;/*#262626*/
+	color: #E4E2E2;
+	margin: 0px 0 0 0;
+	padding: 15px 0;
+	clear: both;
+	position: absolute;
+	bottom: 0;
+	z-index: 89;
+}
+
+#footer p{
+	font-size: 8pt;
+}
+
+#footercontent{
+	width: 800px;
+	margin: 0 auto;
+	line-height: 5pt;
+	text-align: center;
+	padding: 0;
+}
+
+#footertop{
+	width: 800px;
+	margin: -40px auto 0 auto;
+}
+
+
+#logo{
+	width: 90px;
+	height: 90px;
+	margin: -55px auto 0 auto;
+	border-radius: 45px;
+	background: url('../i/John-Simpson-Architects-Logo.png');
+	background-size: 90px auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 90;
+}
+
+#riba{
+	width: 131px;
+	height: 30px;
+	float: left;
+	background: url('../i/riba.png');
+	background-size: auto 25px;
+	background-repeat: no-repeat;
+}
+
+#intbau{
+	height: 30px;
+	width: 223px;
+	float: right;
+	background: url('../i/intbau.png');
+	background-size: auto 25px;
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+
+#footertxt{
+	margin: 55px auto 0px auto;
+	position: relative;
+	display: block;
+	float: none;
+	clear: both;
+}
+
+#footer a{color:#E4E2E2; }
+#footer a:hover, #footer a:hover .fa{color: #303030;}
+#footer a:visited, {color:#E4E2E2; }
+#footer a:active{color:#E4E2E2;}
+
+
+.push{
+	height: 90px;
+	clear: both;
+}
+
+
+/* I N D E X   C O N T A I N E R **************************************/
+
+#containerindex{
+	width: 100%;
+	min-height: 100%;
+	margin: 0px auto -60px auto;
+	text-align: center;
+}
+
+#footer .footindex{
+margin-top: 100px;
+}
+
+.clearer{
+	clear: both;
+}
+
+.wrapper {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -90px; 
+}
+.wrapper:after {
+  content: "";
+  display: block;
+}
+
+
+#covertitle h2:after{
+	content: '_______________________';
+	display: block;
+	opacity: 0.7;
+	font-family: 'Cardo', serif;
+	font-style: italic;
+	font-size: 10pt;
+}
+
+#covertitle p{
+	margin: 20px auto 30px auto;
+}
+
+
+
+/* i n d e x  g a l l e r y * * * * * * * * * * * * * * */
+
+#mobgal{
+	display: none;
+}
+
+
+#slides {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  margin: -130px auto -90px auto;
+  position: absolute;
+}
+#slides .slides-control {
+  position: relative;
+  -webkit-transform: 0;
+  transform: 0;
+}
+#slides .slides-container {
+  display: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+}
+#slides .slides-container img {
+  -webkit-backface-visibility: hidden;
+  -ms-interpolation-mode: bicubic;
+  max-width: none;
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+#slides .slides-container img.keep-original {
+  min-width: 0;
+  min-height: 0;
+  position: static;
+}
+#slides .slides-container li {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background: none;
+}
+#slides .slides-container li.current {
+  display: block;
+  z-index: 1;
+}
+#slides .slides-container li .container {
+  width: 55%;
+  margin: 0 auto 30px auto;
+  position: relative;
+  top: 25%;
+  min-height: 300px;
+  padding: 30px;
+  background: white;
+  background: rgba(255, 255, 255, 0.9);
+}
+#slides .scrollable {
+  *zoom: 1;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  height: 100%;
+}
+#slides .scrollable:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#slides .scrollable .container {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+.slides-navigation {
+  width: 100%;
+  position: relative;
+  top:109px;
+  z-index: 400;
+}
+.slides-navigation a {
+  position: relative;
+  display: inline;
+  color: black;
+  background: white;
+  text-decoration: none; 
+  width: 50px;
+  height: 400px;
+}
+
+.slides-navigation a.prev {
+  float: left;
+  background: url(../i/slider/aleft.svg) center top no-repeat;
+  background-size: 40px auto;
+}
+
+.slides-navigation a.prev:hover {
+  padding-left: 20px;
+}
+
+.slides-navigation a.next {
+  float: right;
+  background: url(../i/slider/aright.svg) center top no-repeat;
+  background-size: 40px auto;
+}
+
+.slides-navigation a.next:hover {
+  padding-right: 20px;
+}
+
+.slides-pagination {
+  position: absolute;
+  z-index: 200;
+  bottom: 100px;
+  left: 23px;
+  width: 100%;
+}
+.slides-pagination a {
+border: 2px solid #fff;
+border-radius: 15px;
+width: 10px;
+height: 10px;
+display: inline-block;
+margin: 2px;
+}
+
+.slides-pagination a.active {
+background: #fff;
+}
+
+.captblack{
+border-left: solid 2px #303030;
+font-weight: 700;
+/*background-color: rgba(255,255,255,0.5);*/
+}
+
+.captwhite{
+border-left: solid 2px #fff;
+font-weight: 700;
+/*background-color: rgba(255,255,255,0.5);*/
+}
+
+.captwhite a{
+color: #fff;
+}
+
+.captblack a{
+color: #303030;
+}
+
+.caption{
+position: relative; 
+width: 480px;
+height: 120px;
+padding: 0 20px;
+text-align: left; 
+font-family: 'Cardo', serif;
+margin-top: 28%;
+margin-left: 30px;
+text-shadow: 2px 2px 4px #303030;
+background-color: rgba(92,100,103,0.5);
+}
+
+.caption:hover{
+background-color: rgba(92,100,103,0.6);
+}
+
+.caption h2{
+font-size: 20pt;
+font-style: italic;
+}
+
+.caption h3{
+font-size: 10pt;
+margin: 20px auto;
+}
+
+
+/* G E N E R A L **************************************/
+
+#container{
+	width: 1270px;
+	min-height: 100%;
+	margin: 0px auto -90px auto;
+	text-align: center;
+}
+
+#content{
+	width: 1252px;
+	height: auto;
+	min-height: 100%;
+	margin: 0px auto -90px auto;
+	background: #FFF;
+	padding:14px;
+	padding-bottom: 150px;
+	float: left;
+	box-shadow: 0px 15px 30px 1px rgba(0,0,0,0.1);
+}
+
+
+/* N E W S   C O N T E N T **************************************/
+
+
+#newscontent{
+	width: 900px;
+	height: auto;
+	min-height: 100%;
+	margin: 20px auto 0px 20px;
+	float: left;
+	padding-right: 30px;
+	border-right: solid 2px #303030;
+}
+
+#newscontent #galleria{
+	height: 410px;
+}
+
+#newscontent .galleria-info{
+	top: 392px;
+}
+
+
+.newstitle{
+	margin: 10px auto;
+	font-size: 10pt;
+}
+
+.newstitle h2{
+	font-weight: normal;
+}
+
+.newstitle:after{
+	content: '_______________________';
+	opacity: 0.7;
+}
+
+.newstxt{
+	width: 900px;
+	margin: 20px auto;
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    text-align: left;
+    -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 20px; /* Firefox */
+    column-gap: 20px;
+}
+
+.newstxt p{
+	margin-top: 10px;
+	text-indent: 15px;
+}
+
+.newstxt p:first-child{
+	margin-top: 0;
+	font-weight: 700;
+}
+
+.newstxt img{
+	width: 286px;
+	float: left;
+	margin: 0px auto 15px auto;
+}
+
+
+#newscolumn{
+	width: 250px;
+	float: right;
+	margin: 20px;
+}
+
+.ontitle{
+	margin-top: 0px;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+
+.ontitle hr{
+
+	display: block;
+	width: 70px;
+	margin-top:10px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 1px;
+}
+
+.nbox{
+	margin-bottom: 20px;
+}
+
+.nbox h2{
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.nbox p{
+	font-style: italic;
+}
+
+.nbox img{
+	width: 100%;
+	box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.1);
+}
+
+.nbox:hover img{
+	box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.3)
+}
+
+
+
+
+/* P R O J E C T S - T E M P O R A L*******************************************/
+
+#galleria{
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+}
+
+#galleria img{
+	width: 100%;
+	height: auto;
+}
+
+.prevweb h2{
+	font-size: 15px;
+	line-height: 20px;
+	padding: 20px;
+}
+
+.galleria-info{
+	width: 100%;
+	color:#303030;
+	z-index:3;
+	text-align:right;
+	font-family: 'Cardo';
+  	font-size: 14px;
+  	font-style: italic;
+  	padding-top: 0px;
+	padding-right: 23px;
+	position: relative;
+	background-color: #fff;
+	top: 582px;
+}
+
+
+/* P R O J E C T S    I N D E X*******************************************/
+
+.clink h2{
+	font-size: 12pt;
+}
+
+.projcategory{
+	width: 450px;
+	float: left;
+	margin: 0 auto;
+	font-size: 11pt;
+}
+
+.projcategory li{
+	float: left;
+	width: 110px;
+	text-align: center;
+}
+
+.categories{
+	width: 450px;
+	margin: -5px auto 0 auto;
+}
+
+.categories ul li a:focus{
+	font-weight: bold;
+}
+
+.categories ul li a:hover{
+	font-weight: bold;
+}
+
+.projcategory:before{
+	content: '·';
+	float: left;
+	color: #7E0E09;
+}
+.projcategory:after{
+	content: '·';
+	float: left;
+	color: #7E0E09;
+}
+
+.projcategory .active{
+	font-weight: bold;
+}
+
+.projcategory li a{
+	color: #7E0E09;
+}
+
+#catdisplay{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+#catdisplay .mainsection{
+	width: 100%;
+	height: 100%;
+}
+
+.projlistmob{
+	display: none;
+}
+
+.projlist{
+	width: 220px;
+	margin: 45px 0 0 25px;
+	text-align: left;
+	line-height: 5px;
+	float: left;
+}
+
+.projlist ul{
+	border-left: 1px solid #303030;
+	margin-top: 30px;
+	width: 100%;
+}
+
+.projlist ul li{
+	font-size: 14px;
+	line-height: 15px;
+	margin: 0 0 15px 10px;
+}
+
+.projlist li.active{
+	font-weight: bold;
+}
+
+.catlink{
+	height: 30px;
+	padding: 10px 0;
+}
+
+.subcattitmob{
+	display: none;
+}
+
+.thumbs{
+	width: 960px;
+	float: right;
+	margin: 35px 15px 0 0;
+}
+
+.tn{
+	float: left;
+	width: 300px;
+	height: 225px;
+	margin: 0 auto 20px 20px;
+	opacity: 1;
+	background-color: white;
+	box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.1);
+	overflow: hidden;
+}
+
+.tn:hover{
+	box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.2);
+}
+
+.tntitle{
+	margin-top: 155px;
+	height: 90px;
+	padding: 8px 0;
+	background-color: rgba(255,255,255,0.7);
+	-webkit-transition: margin-top 1s;
+	-moz-transition: margin-top 1s;
+	-ms-transition: margin-top 1s;
+	transition: margin-top 1s;
+}
+
+.tn:hover .tntitle{
+	margin-top: 225px;
+}
+
+.galleries1{
+	background: url(../i/ap/a-no-images.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pbuckingham{
+	background: url(../i/ap/Buckingham-Palace-02-Portico-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pbuckinghamshop{
+	background: url(../i/ap/Buckingham-Palace-20-Royal-Collection-Shop-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+.Pbuckint{
+	background: url(../i/ap/Buckingham-Palace-01-Nash-Gallery-2-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pbuckhurst{
+	background: url(../i/ap/Buckhurst-02-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pbuckhurstint{
+	background: url(../i/ap/Buckhurst-07-Sitting-Room-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pkensington{
+	background: url(../i/ap/Kensington-Palace-01-East-Front-View-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pjafar{
+	background: url(../i/ap/Eton-College-15-New-Jafar-Gallery-Housing-Antiquities-in-Specialist-Display-Cabinets-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Peton{
+	background: url(../i/ap/Eton-College-16-Column-Detail-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Ppeterhousech{
+	background: url(../i/ap/Peterhouse-01-Birdwood-Building-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Ppeterint{
+	background: url(../i/ap/Peterhouse-05-Ceiling-Detail-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Plmh{
+	background: url(../i/ap/Lady-Margaret-Hall-01-Pipe-Partridge-Building-View-Through-Arcade-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Prcmch{
+	background: url(../i/ap/Royal-College-of-Music-02-Watercolour-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Prcm{
+	background: url(../i/ap/Royal-College-of-Music-02-Watercolour-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pndm{
+	background: url(../i/ap/Notre-Dame-University-01-East-Perspective-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pgonvillech{
+	background: url(../i/ap/Gonville-And-Caius-College-01-Colyton-Room-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pgonville{
+	background: url(../i/ap/Gonville-And-Caius-College-01-Colyton-Room-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pgonbar{
+	background: url(../i/ap/Gonville-And-Caius-College-07-Bar-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pcarhart{
+	background: url(../i/ap/Carhart-Mansion-04-New-York-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Poldchurch{
+	background: url(../i/ap/Old-Church-Street-01-Church-Hall-John-Simpson-Architects---Copy.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pvincent{
+	background: url(../i/ap/Vincent-Square-02-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pstanhope{
+	background: url(../i/ap/Stanhope-01-New-York-Entrance-Hall-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pashfold{
+	background: url(../i/ap/Ashfold-House-01-North-Elevation-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pashfoldint{
+	background: url(../i/ap/Ashfold-House-05-Entrance-Hall-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Papthorp{
+	background: url(../i/ap/Apthorp-01-Courtyard-View-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pdoughty{
+	background: url(../i/ap/Doughty-01-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Ppoundbury{
+	background: url(../i/ap/Poundbury-Elevations-01-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pbenham{
+	background: url(../i/ap/Benham-Park-01-Aerial-View-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pknokke{
+	background: url(../i/ap/Knokke-Heist-Belgium-Elevation-01-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Priley{
+	background: url(../i/ap/Riley-House-Perspective-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pchantry{
+	background: url(../i/ap/Chantry-House-01-Curved-Portico-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pbelsize{
+	background: url(../i/ap/Belsize-Park-01-Drawing-Room-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pmill{
+	background: url(../i/ap/Mill-Ride-01-Perspective-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pchesham{
+	background: url(../i/ap/Chesam-Place-01-Exterior-Perspective-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Petonchamber{
+	background: url(../i/ap/Eton-College-05-New-Jafar-Hall-Debating-Chamber-within-McCrum-Yard-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Plmhlecture{
+	background: url(../i/ap/Lady-Margaret-Hall-03-Pipe-Partridge-Building-Theatre-Interior-Seating-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Prcollection{
+	background: url(../i/ap/Buckingham-Palace-13-Royal-Collection-Lecture-Room-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pmarket{
+	background: url(../i/ap/Brownsword-Market-Building-01-Exterior-View-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pmarketint{
+	background: url(../i/ap/Brownsword-Market-Building-04-New-Hall-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Parms{
+	background: url(../i/ap/University-Arms-Hotel-02-Perspective-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pgainsborough{
+	background: url(../i/ap/Gainsborough-Hotel-01-Entrance-Portico-in-Antis-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Ppaternoster{
+	background: url(../i/ap/Paternoster-Square-01-Watercolour-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Plime{
+	background: url(../i/ap/Lime-Street-Building-01-Watercolour-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pdickens{
+	background: url(../i/ap/Dickens-Heath-Centre-02-Masterplan-And-Design-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pfairford{
+	background: url(../i/ap/Coldharbour-Farm-Masterplan-01-Design-Overall-View-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Phawkes{
+	background: url(../i/ap/Hawkes-And-Wainer-Opticians-01-Shop-Interior-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pberlin{
+	background: url(../i/ap/Berlin-01-Perspective-Watercolour-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pdnrc{
+	background: url(../i/ap/Defence-and-National-Rehabilitation-Centre-01-Watercolour-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pavon{
+	background: url(../i/ap/Avon-House-01-Perspective-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pcrosby{
+	background: url(../i/ap/Crosby-Hall-04-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pbuckchapel{
+	background: url(../i/ap/Buckingham-Palace-25-Chapel-Watercolour-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Partillery{
+	background: url(../i/ap/Royal-Artillery-Memorial-Wall-01-Sections-and-Elevations-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Phillgates{
+	background: url(../i/ap/Constitutional-Hill-Gates-01-Watercolour-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Ppipistrele{
+	background: url(../i/ap/Pipistrelle-Pavilion-01-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Psheringham{
+	background: url(../i/ap/Sheringham-Pavilion-02-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pkings{
+	background: url(../i/ap/Kings-Lynn-01-Reading-Room-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pptolomy{
+	background: url(../i/ap/Ptolemys-Bar-01-Interior-View-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pptolomy{
+	background: url(../i/ap/Ptolemys-Bar-01-Interior-View-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pnewcastle{
+	background: url(../i/ap/Newcastle-Great-Park-01-Masterplan-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pbologna{
+	background: url(../i/ap/Bologna-Masterplan-01-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pswindon{
+	background: url(../i/ap/Swindon-Southern-Development-Area-Masterplan-01-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Ppainters{
+	background: url(../i/ap/Painters-Yard-Cottage-01-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Psolihull{
+	background: url(../i/ap/Solihull-Wharf-01-Axonometric-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pbirmingham{
+	background: url(../i/ap/Birmingham-01-Aerial-View-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pworcester{
+	background: url(../i/ap/Royal-Worcester-Porcelain-Factory-Redevelopment-01-Perspective-Watercolour-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pfawley{
+	background: url(../i/ap/Fawley-Court-01-Watercolour-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pkenshop{
+	background: url(../i/ap/Kensington-Palace-03-Cafe-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Partillery{
+	background: url(../i/ap/Royal-Artillery-Memorial-Wall-01-Sections-and-Elevations-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.Pfisher{
+	background: url(../i/ap/Paternoster-Square-05-Model-John-Simpson-Architects.png);
+	background-size: cover;
+	background-position: center;
+}
+
+/* S I N G L E    P R O J E C T *******************************************/
+
+
+.galimg{
+	text-align: center;
+}
+
+.galimg img{
+	margin-top: 10px;
+	width: auto; /*1200*/
+	height: 750px;
+}
+
+.galimg iframe{
+	margin-top: 10px;
+	width: 1200px;
+	height: 750px;
+
+}
+
+#projlayout{
+	margin-top: -685px;
+}
+
+#projlayout .galimg{
+	display: none;
+}
+#projlayout .galimg.current{
+	display: block;
+}
+
+.projcaption{
+	width: 1200px;
+	height: 20px;
+	margin: 0px auto;
+}
+
+.projcaption p{
+	float: center;
+	font-style: italic;
+}
+
+.projnav{
+	float: right;
+	display: none;
+}
+
+.projnav div{
+	float: right;
+	display: none;
+}
+
+.projbody{
+	width: 1200px;
+	clear: both;
+	margin-top: 50px;
+}
+
+.projname{
+	width: 500px;
+	float: left;
+	margin-left: 15px;
+}
+
+.projname h2{
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.projname h3{
+	font-size: 15px;
+	margin: 10px auto;
+}
+
+.projname hr{
+	display: block;
+	width: 70px;
+	margin-top:10px;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 1px;
+}
+
+.projtxt{
+	width: 600px; 
+	float: right;
+	margin-right: 50px;
+	padding-bottom: 100px;
+	text-align: left;
+}
+
+.projtxt p{
+	text-indent: 20px;
+}
+
+.imgnav{
+	width: 1310px;
+	height: 685px;
+	overflow: hidden;
+	margin-left: -30px;
+	margin-top: 0px;
+	clear: both;
+}
+
+#prev{
+	width: 50px;
+	height: 685px;
+	float: left;
+	background:url('../i/la.svg');
+	background-size: 30px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	cursor: pointer;
+}
+
+#next{
+	width: 50px;
+	height: 685px;
+	float: right;
+	background:url('../i/ra.svg');
+	background-size: 30px;
+	background-repeat: no-repeat;
+	background-position: right center;
+	cursor: pointer;
+}
+
+
+
+/* A W A R D S *******************************************/
+
+/* a w a r d s * * * * * * * * * */
+
+#awards{
+	width: 635px;
+	height: auto;
+	float: left;
+	text-align: center;
+	background-color: transparent;
+
+
+}
+
+#awards h2, #competitions h2{
+	font-size: 17px;
+	text-transform: uppercase;
+	margin:20px auto;
+	font-weight: bold;
+}
+
+#awards ul{
+	width: 500px;
+	margin: 30px auto;
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+	-moz-column-count: 2; /* Firefox */
+	column-count: 2;
+	text-align: center;
+	-webkit-column-gap: 50px; /* Chrome, Safari, Opera */
+	-moz-column-gap: 50px; /* Firefox */
+	column-gap: 50px;
+	-moz-column-fill: balance;
+	margin-left: 80px;
+}
+
+#awards ul li hr{
+	display: block;
+	width: 60px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+#awards li{
+	margin:0 auto 30px auto;
+	
+}
+
+#awards li p:first-child{
+	font-weight: bold;
+}
+
+
+/* c o m p e t i t i o n s * * * * * * * * * */
+
+#competitions{
+	width: 600px;
+	height: auto;
+	float:left;
+	margin: 0px 0 0 0;
+	background: #FFF;
+	text-align: center;
+}
+
+#competitions ul{
+	width: 500px;
+	height: 100%;
+	min-height: 100%;
+	overflow: auto;
+	margin: -20px 90px 0 0;
+	border-left: 1px solid #303030;
+	padding-left: 80px;
+}
+
+#competitions ul li{
+	width: 230px;
+	float: left;
+	margin-bottom: 25px;
+}
+
+#competitions ul li:after{
+	content: '____________';
+	
+}
+
+#competitions ul li h2{
+	margin: 2px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#competitions  p{
+	margin-top: 10px;
+}
+
+#competitions ul li p:last-child{
+	display: block;
+	font-style: italic;
+	font-size: 15px;
+	text-transform: capitalize;
+}
+
+.rcmusic{
+	background: url(../i/ap/Royal-College-of-Music-02-Watercolour-John-Simpson-Architects.png);
+	margin: 20px auto;
+}
+
+.notredame{
+	background: url(../i/ap/Notre-Dame-University-03-Perspective-from-Courtyard-John-Simpson-Architects.png);
+	margin: 20px auto;
+}
+
+.millride{
+	background: url(../i/ap/Mill-Ride-01-1-Perspective-John-Simpson-Architects.png);
+	margin: 20px auto;
+}
+
+.kensington{
+	background: url(../i/ap/Kensington-Palace-03-Iron-Loggia-Detail-1-John-Simpson-Architects.png);
+	margin: 20px auto;
+}
+
+.margaret{
+	background: url(../i/ap/Lady-Margaret-Hall-01-Pipe-Partridge-Building-View-Through-Arcade-John-Simpson-Architects.png);
+	margin: 20px auto;
+}
+
+.peterhouse{
+	background: url(../i/ap/Peterhouse-01-Birdwood-Building-John-Simpson-Architects.png);
+	margin: 20px auto;
+}
+
+.queensgal{
+	background: url(../i/ap/Buckingham-Palace-14-Nash-Gallery-John-Simpson-Architects.png);
+	margin: 20px auto;
+}
+
+.gonville{
+	background: url(../i/ap/Gonville-And-Caius-College-01-Colyton-Room-John-Simpson-Architects.png);
+	margin: 20px auto;
+}
+
+.eton{
+	background: url(../i/ap/Eton-College-01-Jafar-Gallery-John-Simpson-Architects.png);
+	margin: 20px auto;
+}
+
+.competimg{
+	width: 120px;
+	height: 120px;
+	border-radius: 60px;
+	background-size: auto 120px;
+	background-position: center;
+	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.1);
+	opacity: 1;
+	-webkit-transition: opacity 100ms ease-in 100ms;
+    -moz-transition: opacity 100ms ease-in 100ms;
+    -o-transition: opacity 100ms ease-in 100ms;
+    transition: opacity 100ms ease-in 100ms;
+}
+
+.competimg:hover{
+	opacity: .5;
+
+}
+
+
+/* P R A C T I C E *******************************************/
+
+.practicetxt{
+	width: 1200px;
+	margin: 30px auto;
+
+}
+
+.practicetxt img{
+	width: 240px;
+	float: left;
+	margin: 0px auto 20px auto;
+}
+
+
+#practice p{
+	margin-top: 10px;
+	text-indent: 15px;
+}
+
+
+
+#practice img{
+	width: 240px;
+	float: left;
+	margin: 0px auto 20px auto;
+}
+
+#practice p:last-child{
+	margin-top: 90px;
+	font-style: italic;
+	font-size: 8pt;
+	text-indent: 0px;
+	text-align: right;
+}
+
+
+/* l i n k s * * * * * * * * * */
+
+.catprac{
+	width: 530px;
+	margin: -5px auto 0 auto;}
+
+.plink h2{
+	font-size: 10pt;
+}
+
+.practicelinks{
+	width: 530px;
+	margin: 0 auto;
+	font-size: 11pt;
+}
+
+.practicelinks li{
+	float: left;
+	width: 125px;
+	text-align: center;
+}
+
+
+.practicelinks li a{
+	color: #7E0E09;
+}
+
+.practicelinks a:focus{
+	font-weight: bold;
+}
+
+.practicelinks a:hover{
+	font-weight: bold;
+}
+
+.practicelinks .active{
+	font-weight: bold;
+}
+
+.practicelinks:before{
+	content: '·';
+	float: left;
+	margin-right: 15px;
+	color: #7E0E09;
+}
+.practicelinks:after{
+	content: '·';
+	float: left;
+	color: #7E0E09;
+}
+
+
+.plink{
+	float: left;
+	margin-top: 20px;
+	-webkit-column-count: 4; /* Chrome, Safari, Opera */
+    -moz-column-count: 4; /* Firefox */
+    column-count: 4;
+    text-align: left;
+    -webkit-column-gap: 45px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 45px; /* Firefox */
+    column-gap: 45px;
+}
+
+
+.active{
+	display: block;
+}
+.hide{
+	display: none;
+}
+
+#plinks section{
+	margin: 20px auto;
+	padding: 14px 14px 40px 14px;
+}
+
+.practicetop{
+	width: 240px;
+	position: absolute;
+	top: 171px;
+}
+
+
+/* p r a c t i c e * * * * * * * * * */
+
+#practice p:nth-child(1){
+	margin-top: 200px;
+
+}
+#practice h2{
+	margin-bottom: 30px;
+
+}
+
+
+
+/* s e r v i c e s * * * * * * * * * */
+
+#services{
+	padding-bottom: 40px;
+	text-indent: 0px;
+	margin-top: 20px;
+}
+
+#services p:first-child{
+	margin-top: 200px;
+
+}
+
+#services h2{
+	text-transform: uppercase;
+	margin: 20px auto 10px auto;
+}
+
+
+#services h3{
+	font-style: italic;
+	font-size: 10pt;
+	line-height: 14px;
+	margin-bottom: 10px;
+}
+
+
+/* m o n o g r a p h * * * * * * * * * */
+
+#monograph h2:first-child{
+	margin-top: 200px;
+
+}
+
+.monobox{
+	margin: 30px auto;
+    text-indent: 15px;
+}
+
+
+
+.monobox p{
+	margin-bottom: 15px;
+}
+
+.monobox h2{
+	margin-bottom: 15px;
+}
+
+
+#monograph .monobox h2:after{
+	content: ".";
+	display: none;
+}
+
+.monobox img{
+	max-width: 100%;
+	margin-bottom: 10px;
+}
+
+
+/* p u b l i c a t i o n s * * * * * * * * * */
+
+#publications h2:first-child{
+	margin-top: 200px;
+
+}
+
+.pubox{
+	margin: 30px auto;
+    text-indent: 15px;
+}
+
+.pubox p{
+	margin-bottom: 15px;
+}
+
+
+#publications h2{
+	text-transform: uppercase;
+}
+
+
+/* P E R S O N N E L *******************************************/
+
+#personnel{
+	width: 100%;
+	min-height: 100%;
+	padding bottom: 20px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+#personnel h2{
+	font-size: 17px;
+	text-transform: uppercase;
+	margin:20px auto 0px auto;
+	text-align: center;
+	font-weight: bold;
+}
+
+.employee{
+	width: 90%;
+	margin: 30px  auto;
+	-webkit-column-count: 4; /* Chrome, Safari, Opera */
+    -moz-column-count: 4; /* Firefox */
+    column-count: 4;
+    text-align: left;
+    -webkit-column-gap: 45px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 45px; /* Firefox */
+    column-gap: 45px;
+    border-bottom: 1px solid #303030;
+    padding-bottom: 20px;
+}
+
+.employee img{
+	width: 100%;
+	margin-top: 20px;
+}
+
+.employee figure h6{
+	font-size: 11px;
+	font-style: italic;
+	margin-bottom: 20px;
+	font-weight: normal;
+}
+
+.intro{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.intro h2{
+	font-size: 16px;
+	margin: 10px auto 20px auto;
+	font-weight: normal;
+	font-family: 'Cardo', serif;
+}
+
+.intro h4{
+	font-size: 16px;
+	font-style: italic;
+	font-weight: normal;
+	margin: 0px auto 0 auto;
+}
+
+.intro h4:after{
+	content: '____________';
+	font-size: 10px;
+	display: block;
+	color: rgba(0,0,0,0.8);
+	margin-bottom: 10px;
+}
+
+.intro h5:after{
+	content: '_______________________';
+	font-size: 10px;
+	display: block;
+	color: rgba(0,0,0,0.8);
+	margin-bottom: 10px;
+}
+
+.intro h3{
+	font-size: 12px;
+	line-height: 25px;
+}
+
+.intro h5{
+	font-size: 12px;
+	font-style: italic;
+	margin-top: 10px;
+}
+
+.employee p{
+	margin-top: 10px;
+	text-indent: 15px;
+}
+
+.employee .intro p{
+	text-indent: 0px;
+}
+
+.employee ul p{
+	margin: 25px auto 10px auto;
+}
+
+.employee ul li{
+	font-size: 12px;
+	margin: 4px auto;
+}
+
+.employee ul li:before{
+	content: '· ';
+}
+
+.portrait{
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	margin: 0 auto;
+}
+
+.john{
+	background: url('../i/p/John-Simpson-portrait.png');
+	background-size: 150px 150px;
+}
+
+.michael{
+	background: url('../i/p/Michael-Simpson-portrait.png');
+	background-size: 150px 150px;
+}
+
+.joanna{
+	background: url('../i/p/Joanna-Wachowiak-portrait.png');
+	background-size: 150px 150px;
+}
+
+.tiffany{
+	background: url('../i/p/Tiffany-Abernathy-portrait.png');
+	background-size: 150px 150px;
+}
+
+.smylie{
+	background: url('../i/p/John-Smylie-portrait.png');
+	background-size: 150px 150px;
+}
+
+.victoria{
+	background: url('../i/p/Victoria-Lee-portrait.png');
+	background-size: 150px 150px;
+}
+
+.robert{
+	background: url('../i/p/Robert-Taylor-portrait.png');
+	background-size: 150px 150px;
+}
+
+
+
+
+
+
+
+/* C L I E N T S *******************************************/
+
+.clientstxt{
+	width: 1200px;
+	margin: 30px auto;
+	-webkit-column-count: 4; /* Chrome, Safari, Opera */
+    -moz-column-count: 4; /* Firefox */
+    column-count: 4;
+    text-align: left;
+    -webkit-column-gap: 45px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 45px; /* Firefox */
+    column-gap: 45px;
+
+}
+
+.clients h2{
+	font-size: 17px;
+	text-transform: uppercase;
+	margin:20px auto 0px auto;
+	text-align: center;
+	font-weight: bold;
+}
+
+.clients ul li{
+	margin-bottom: 10px;
+}
+
+.clients ul li p:before{
+	content: '· ';
+}
+
+.clients h3{
+	font-family: 'Cardo', serif;
+	font-weight: normal;
+	font-size: 15px;
+	margin-top: 20px;
+	font-style: italic;
+}
+
+.clients{
+
+	padding-bottom: 40px;
+}
+
+
+
+
+
+
+/* C O N T A C T *******************************************/
+
+#containercontact{
+	width: 1252px;
+	min-height: 100%;
+	margin: 20px auto -90px auto;
+	text-align: center;
+}
+
+.contactlinks{
+	width: 330px;
+	margin: 0 auto;
+	font-size: 11pt;
+}
+
+.contactlinks li{
+	float: left;
+	width: 100px;
+	text-align: center;
+}
+
+.contactlinks li a{
+	color: #7E0E09;
+}
+
+.contactlinks:before{
+	content: '·';
+	float: left;
+	color: #7E0E09;
+}
+.contactlinks:after{
+	content: '·';
+	float: left;
+	color: #7E0E09;
+}
+
+#contactus{
+	height: 414px;
+	clear: both;
+}
+
+.recmap{
+	margin: 30px;
+	float: left;
+	width:700px ;;
+}
+#map iframe{
+	float: left;
+	width:765px ;
+	height:350px ;
+	frameborder:0 ;
+	border:0;
+}
+
+#contact{
+	width: 450px;
+	float: right;
+	margin-top: 60px;
+}
+
+#contact h2{
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+#contact p:nth-child(5),
+#contact p:nth-child(7){
+	margin-top: 20px;
+}
+
+.recruitment{
+		margin-top: 50px;
+	}
+
+	.recruitment li a{
+		font-size: 12px;
+		font-style: italic;
+	}
+
+#recruitment{
+	text-align: left;
+	width: 1200px;
+	margin: 40px auto;
+}
+
+#recruitment h2{
+	font-size: 18px;
+	font-style: italic;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	text-align: center;
+
+}
+
+#recruitment p{
+	margin: 10px 0;
+}
+
+.apply{
+	margin-bottom: 40px;
+	width: 300px;
+	float: left;
+	padding-right: 20px;
+	border-right: 1px solid #303030;
+	text-indent: 23px;
+}
+
+.apply h3{
+	font-style: italic;
+	font-size: 13px;
+	margin-top: 20px;
+	line-height: 13px;
+	text-indent: 0px;
+}
+
+.apply p{
+	margin: 20px 0;
+}
+
+.joboffer{
+	margin: 40px;
+	padding-bottom: 20px;
+	width: 750px;
+	float: right;
+}
+
+.joboffer p{
+	text-indent: 23px;
+}
+
+.joboffer:after{
+	content: "___________________________________";
+	display: block;
+	font-size: 10px;
+	text-align: center;
+}
+
+#recruitment ul li{
+	margin-top: -50px;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************************************************************/
+/***************************************************************************/
+/***************************************************************************/
+/*RESPONSIVENESS************************************************************/
+
+@media only screen and (max-width: 1300px) {
+
+	/* G E N E R A L*******************************************/
+
+	#container{
+		width: 1000px;
+	}
+
+	#content{
+		width: 972px;
+	}
+
+	/* N E W S   C O N T E N T **************************************/
+
+
+	#newscontent{
+		width: 670px;
+		height: auto;
+		min-height: 100%;
+		margin: 20px auto 0px 20px;
+		float: left;
+		padding-right: 30px;
+		border-right: solid 2px #303030;
+	}
+
+	.newstxt{
+		width: 670px;
+		margin: 20px auto;
+		-webkit-column-count: 2; /* Chrome, Safari, Opera */
+	    -moz-column-count: 2; /* Firefox */
+	    column-count: 2;
+	    text-align: left;
+	    -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+	    -moz-column-gap: 20px; /* Firefox */
+	    column-gap: 20px;
+
+	}
+
+	.newstxt img{
+		width: 300px;
+		float: left;
+		margin: 15px auto 15px auto;
+	}
+
+	#newscolumn{
+		width: 200px;
+		float: right;
+		margin: 20px;
+	}
+
+	/* P R O J E C T S    I N D E X*******************************************/
+
+	.thumbs{
+		width: 650px;
+		float: right;
+		margin: 35px 15px 0 0;
+	}	
+
+	/* S I N G L E    P R O J E C T *******************************************/
+
+	.galimg img{
+		margin-top: 10px;
+		width: auto; /*910*/
+		height: 520px;
+	}
+
+	.galimg iframe{
+		margin-top: 10px;
+		width: 910px;
+		height: 520px;
+	}
+
+
+	.projcaption{
+		width: 910px;
+	}
+
+	.projbody{
+		width: 910px;
+	}
+
+	.projname{
+		width: 350px;
+	}
+
+	.projtxt{
+		width: 500px; 
+		margin-right: 20px;
+	}
+
+	.imgnav{
+		width: 1030px;
+		height: 520px;
+	}
+
+	#prev{
+		width: 50px;
+		height: 520px;
+	}
+
+	#next{
+		width: 50px;
+		height: 520px;
+	}
+
+	#projlayout{
+		margin-top: -520px;
+	}
+
+
+	/* A W A R D S *******************************************/
+
+	#awards{
+		width: 450px;
+		margin: 0 20px;
+	}
+
+	#awards ul{
+		width: 400px;
+		margin: 30px auto;
+		-webkit-column-count: 1; /* Chrome, Safari, Opera */
+	    -moz-column-count: 1; /* Firefox */
+	    column-count: 1;
+	    -webkit-column-gap: 0px; /* Chrome, Safari, Opera */
+	    -moz-column-gap: 0px; /* Firefox */
+	    column-gap: 0px;
+	    -moz-column-fill: balance;
+
+	}
+
+	#competitions{
+		width: 450px;
+		float: left;
+	}
+
+	#competitions ul{
+		width: 400px;
+		float: none;
+		padding-left: 40px;
+	}
+
+	#competitions ul li{
+		width: 230px;
+		float: none;
+		margin: 0 auto 25px auto;
+	}
+
+	#competitions h2{
+		margin-left: 40px;
+	}
+
+
+	/* P R A C T I C E *******************************************/
+
+	.practicetxt{
+		width: 910px;
+		margin: 30px auto;
+
+	}
+
+
+	.plink{
+		-webkit-column-count: 3; /* Chrome, Safari, Opera */
+	    -moz-column-count: 3; /* Firefox */
+	    column-count: 3;
+	    text-align: left;
+	    -webkit-column-gap: 45px; /* Chrome, Safari, Opera */
+	    -moz-column-gap: 45px; /* Firefox */
+	    column-gap: 45px;
+	}
+
+	/* P E R S O N N E L *******************************************/
+
+	.employee{
+		-webkit-column-count: 3; /* Chrome, Safari, Opera */
+	    -moz-column-count: 3; /* Firefox */
+	    column-count: 3;
+	    -webkit-column-gap: 45px; /* Chrome, Safari, Opera */
+	    -moz-column-gap: 45px; /* Firefox */
+	    column-gap: 45px;
+	}
+
+	/* C L I E N T S *******************************************/
+
+	.clientstxt{
+		width: 910px;
+		-webkit-column-count: 3; /* Chrome, Safari, Opera */
+	    -moz-column-count: 3; /* Firefox */
+	    column-count: 3;
+	    -webkit-column-gap: 45px; /* Chrome, Safari, Opera */
+	    -moz-column-gap: 45px; /* Firefox */
+	    column-gap: 45px;
+	}
+
+	/* C O N T A C T *******************************************/
+
+	#containercontact{
+		width: 1000px;
+	}
+
+	#map iframe{
+		width:500px ;
+	}
+
+	.recmap{
+		width:500px ;;
+	}
+
+	#contact{
+		width: 400px;
+	}
+
+	#recruitment{
+		width: 910px;
+		margin: 40px auto;
+	}
+
+	.joboffer{
+		margin: 0 30px;
+		padding-bottom: 20px;
+		width: 250px;
+		float: right;
+	}
+
+
+
+
+
+}
+
+
+@media only screen and (max-width: 1000px) {	
+
+
+	/* H E A D E R ****************************************************/
+
+	#nav ul{
+		width: 700px;
+	}
+
+
+	/* F O O T E R ****************************************************/
+
+	#footer{
+		height: 70px;
+	}
+
+	#footercontent{
+		width: 700px;
+	}
+
+	#footertop{
+		width: 600px;
+	}
+
+	#footertxt{
+		line-height: 15px;
+	}
+
+
+	/*G E N E R A L **************************************/
+
+	#container{
+		width: 700px;
+
+	}
+
+	#content{
+		width: 672px;
+		float: left;
+	}
+
+	/* N E W S   C O N T E N T **************************************/
+
+
+	#newscontent{
+		width: 635px;
+		border-right: 0px;
+		border-bottom: solid 2px #303030;
+
+	}
+
+	#newscontent #galleria{
+		width: 635px;
+		height: 282px;
+	}
+
+	#newscontent .galleria-info{
+		top: 263px;
+	}
+
+	.newstxt{
+		width: 625px;
+		-webkit-column-count: 2; /* Chrome, Safari, Opera */
+	    -moz-column-count: 2; /* Firefox */
+	    column-count: 2;
+
+	}
+
+	.newstxt img{
+		width: 300px;
+		float: left;
+		margin: 0px auto 15px auto;
+	}
+
+	.newstxt p{
+		margin-top: 10px;
+		text-indent: 15px;
+	}
+
+	.newstxt p:first-child{
+		margin-top: 0;
+		font-weight: 700;
+	}
+
+	#newscolumn{
+		width: 625px;
+		float: none;
+		margin: 30px auto;
+		overflow: auto;
+	}
+
+	.ontitle{
+	margin-top: 20px;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+
+
+	/* P R O J E C T S *******************************************/
+
+	#galleria{
+		width: 672px;
+		height: 415px;
+		overflow: hidden;
+	}
+
+	#galleria img{
+		width: 672px;
+		height: auto;
+	}
+
+	.prevweb h2{
+		font-size: 15px;
+		line-height: 20px;
+		padding: 20px;
+	}
+
+	.galleria-info{
+		width: 100%;
+		color:#303030;
+		z-index:3;
+		text-align:right;
+		font-family: 'Cardo';
+	  	font-size: 14px;
+	  	font-style: italic;
+		padding-right: 23px;
+		position: relative;
+		background-color: #fff;
+		top: 397px;
+	}
+
+	/* P R O J E C T S  I N D E X *******************************************/
+	
+	.catfirstimg{
+		float: right;
+		width: 400px;
+		height: 444px;
+		position: relative;
+		top: -195px;
+		background: red;
+		display: block;
+		z-index: 80;
+		background-position: center;
+		background-size: auto 444px;
+	}
+
+
+	.catimg{
+		float: right;
+		width: 400px;
+		height: 444px;
+		position: relative;
+		display: none;
+		top: -639px;
+		z-index: 82;
+		background-position: center;
+		background-size: auto 444px;
+	}
+
+
+	/* S I N G L E    P R O J E C T *******************************************/
+
+	.galimg img{
+		margin-top: 10px;
+		width: auto; /*650*/
+		height: 371px;
+	}
+
+	.galimg iframe{
+		margin-top: 10px;
+		width: 650px;
+		height: 371px;
+	}
+
+	.projcaption{
+		width: 650px;
+		margin-bottom: 40px;
+	}
+
+	.projbody{
+		width: 650px;
+	}
+
+	.projname{
+		width: 500px;
+		float: none;
+		margin: 0 auto;
+	}
+
+	.projtxt{
+		width: 600px; 
+		margin: 30px auto;
+		float: none;
+	}
+
+	.imgnav{
+		width: 720px;
+		height: 371px;
+		margin-left: -25px;
+	}
+
+	#prev{
+		width: 50px;
+		height: 371px;
+		background-size: 20px;
+	}
+
+	#next{
+		width: 50px;
+		height: 371px;
+		background-size: 20px;
+	}
+
+	#projlayout{
+		margin-top: -371px;
+	}
+
+
+
+	/* A W A R D S *******************************************/
+
+	/* a w a r d s * * * * * * * * * */
+
+	#awards{
+		width: 310px;
+
+	}
+
+	#awards ul{
+		width: 300px;
+
+	}
+
+
+	#awards li{
+		width: 290px;
+		
+	}
+
+
+	/* c o m p e t i t i o n s * * * * * * * * * */
+
+	#competitions{
+		width: 310px;
+	}
+
+	#competitions ul{
+		width: 290px;
+		padding-left: 25px;
+	}
+
+
+	/* P R A C T I C E *******************************************/
+
+	.practicetxt{
+		width: 600px;
+
+	}
+
+	.practicetxt img{
+		width: 80%;
+		clear: both;
+	}
+
+	.monobox img{
+		margin: 10px auto 30px auto;
+	}
+
+	.practicetop{
+		width: 200px;
+	}
+
+	.practicetop ul{
+		clear: both;
+	}
+
+	.plink{
+		float: left;
+		margin-top: 16px;
+		-webkit-column-count: 2; /* Chrome, Safari, Opera */
+	    -moz-column-count: 2; /* Firefox */
+	    column-count: 2;
+	    text-align: left;
+	    -webkit-column-gap: 45px; /* Chrome, Safari, Opera */
+	    -moz-column-gap: 45px; /* Firefox */
+	    column-gap: 45px;
+	}
+
+
+	/* P E R S O N N E L *******************************************/
+
+	.employee{
+		-webkit-column-count: 2; /* Chrome, Safari, Opera */
+	    -moz-column-count: 2; /* Firefox */
+	    column-count: 2;
+	    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+	    -moz-column-gap: 40px; /* Firefox */
+	    column-gap: 40px;
+	}
+
+
+	.employee figure{
+		width: 80%;
+		margin-top: 20px;
+		display: inline-block;
+	}
+
+	figure img{
+		vertical-align: top;
+	}
+
+	/* C L I E N T S *******************************************/
+
+	.clientstxt{
+		width: 600px;
+		-webkit-column-count: 2; /* Chrome, Safari, Opera */
+	    -moz-column-count: 2; /* Firefox */
+	    column-count: 2;
+
+	}
+
+	.clients{
+
+		padding-bottom: 50px;
+	}
+
+
+	/* C O N T A C T *******************************************/
+
+	#containercontact{
+		width: 700px;
+		min-height: 100%;
+		margin: 20px auto -70px auto;
+	}
+
+	#contactus{
+		width: 600px;
+		margin: 0 auto;
+	}
+
+	.recmap{
+		width:600px ;
+		height: 260px;
+		margin: 0 auto;
+	}
+
+	#map iframe{
+		width:600px ;
+		height: 260px;
+	}
+
+	#contact{
+		margin: 30px auto;
+		width: 600px;
+	}
+
+	#recruitment{
+		width: 600px;
+	}
+
+	.apply{
+		width: 600px;
+		border-right: 0px;
+		border-bottom: 1px solid #303030;
+		padding-bottom: 20px;
+	}
+
+	.apply h3{
+		line-height: 20px;
+
+	}
+
+	.joboffer{
+	margin: 20px 40px 20px 0;
+	padding-bottom: 20px;
+	width: 250px;
+	float: right;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 760px) {
+
+	h1{
+		font-size: 20px;
+	}
+
+	/* H E A D E R ****************************************************/
+
+	#jsa{
+		width: 100%;
+		height: 50px;
+		margin: 0px auto 0 auto;
+		padding-top: 25px;
+	}
+
+	#nav{
+		display: none;
+	}
+
+	#navmob{
+		display: block;
+		position: relative;
+		z-index: 91;
+	}
+
+	#menubutton{
+		width: 34px;
+		height: 34px;
+		margin: -18px auto 10px auto;
+		text-align: center;
+		border-radius: 17px;
+		font-size: 20px;
+		color: #E4E2E2;
+		background-color: #262626;
+		cursor: pointer;
+
+	}
+
+	#menubutton i{
+		line-height: 34px;
+	}
+
+	#moblist{
+		width: 100%;
+		font-size: 10px;
+		line-height: 45px;
+		font-family: 'Cardo', serif;
+		text-transform: uppercase;
+		text-align: center;
+		padding-bottom: 20px;
+		border-bottom: 2px solid #000000;
+		background-color: #EDECEC;
+
+
+	}
+
+	.collapse{
+	  font-size: 31px;
+	  display:block;
+	}
+	.collapse + input{
+	  display:none;
+	}
+	.collapse + input + *{
+	  display:none;
+	}
+	.collapse + input:checked + *{
+	  display:block;
+	}
+	
+	
+
+	/* I N D E X   C O N T A I N E R **************************************/
+
+	#containerindex{
+		width: 100%;
+		min-height: 100%;
+		margin: 0px auto -100px auto;
+		text-align: center;
+	}
+
+	.clearer{
+		clear: both;
+	}
+
+
+	#covertitle h2:after{
+		content: '_______________________';
+		display: block;
+		opacity: 0.7;
+		font-family: 'Cardo', serif;
+		font-style: italic;
+		font-size: 10pt;
+	}
+
+	#covertitle p{
+		margin: 20px auto 30px auto;
+	}
+
+
+
+
+	/* i n d e x  g a l l e r y * * * * * * * * * * * * * * */
+
+	.wrapper {
+	  min-height: 100%;
+	  /* equal to footer height */
+	  margin-bottom: -90px; 
+	}
+
+	#slides {
+	  overflow-x: hidden;
+	  width: 100%;
+	  height: 100%;
+	  min-height: 100%;
+	  margin: -130px auto -90px auto;
+	  position: absolute;
+	}
+
+
+	.slides-navigation {
+	  top:133px;
+	}
+
+
+	.slides-pagination {
+	  top: 25px;
+	  left: 0px;
+	  text-align: center;
+	  display: none;
+	}
+	.slides-pagination a {
+	  margin: 10px;
+	}
+	.slides-pagination a.active {
+	  background: #fff;
+	}
+
+
+	    .caption{
+	        width: 80%; 
+	        height: auto;
+	        padding: 20px 0px;
+	        text-align: center;
+	        left: 0;
+			margin: 153px auto 0 auto;
+			/*background-color: rgba(30,30,30,0.7);*/
+
+	    }
+
+	    .caption h2{
+	    font-size: 20px;
+		font-style: italic;
+	    }
+
+	    .caption h2:after{
+	    font-size: 10px;
+	    display: block;
+	    content: '________________________';
+	    font-family:sans-serif;
+	    }
+
+	    .caption h3{
+	    font-size: 10pt;
+	    }
+
+	      .captblack{
+    	border-left: solid 0px #303030;
+	    }
+
+	    .captwhite{
+	    	border-left: solid 0px #fff;
+	    }
+
+	    /* N E W S   C O N T E N T **************************************/
+
+
+		#newscontent #galleria{
+			width: 100%;		}
+
+	    /* S I N G L E    P R O J E C T *******************************************/
+
+	    .fa-plus{
+	    	font-size: 25px;
+	    }
+
+
+	    .galimg img{
+			margin-top: 5px;
+			width: 100%;
+			height: auto;
+		}
+
+		.galimg iframe{
+			margin-top: 5px;
+			width: 100%;
+			height: 100;
+		}
+
+		.imgnav{
+			width: 95%;
+			height: 371px;
+			margin:0 auto;
+		}
+
+		#prev{
+			width: 60px;
+			height: 371px;
+			cursor: pointer;
+			position: relative;
+			z-index: 300;
+			margin: 0 auto;
+		}
+
+		#next{
+			width: 60px;
+			height: 371px;
+			cursor: pointer;
+			position: relative;
+			z-index: 300;
+			margin: 0 auto;
+		}
+
+		.projcaption{
+			width: 95%;
+		}
+
+		.projbody{
+			width: 100%;
+			margin: 20px auto 0 auto;
+		}
+
+		.projname{
+			width: 70%;		}
+
+		.projtxt{
+			width: 80%; 
+			margin: 30px auto;
+			float: none;
+		}
+
+
+}
+
+
+@media only screen and (max-width: 701px) {
+
+	#wrapper{
+		min-height: 100%
+	}
+
+	/* F O O T E R ****************************************************/
+
+
+	#footer{
+		height: 30px;
+		position: relative;
+		margin-top: -30px;
+		clear: both;
+	}
+
+	#footercontent{
+		width: 100%;
+		line-height: 15pt;
+		padding: 0;
+	}
+
+	#footertop{
+		width: 100%;
+		margin: 10px auto 0 auto;
+	}
+
+	#logo{
+		width: 70px;
+		height: 70px;
+		margin: -45px auto 0 auto;
+		border-radius: 35px;
+		background: url('../i/John-Simpson-Architects-Logo.png');
+		background-size: 70px auto;
+		background-position: center;
+		background-repeat: no-repeat;
+		position: relative;
+		z-index: 90;
+	}
+
+	#riba{
+		width: 70px;
+		height: 15px;
+		margin:-30px 0 10px 10px;
+		float: left;
+		background-size: auto 15px;
+	}
+
+	#intbau{
+		height: 15px;
+		width: 110px;
+		margin: -30px 10px 10px 0;
+		float: right;
+		background-size: auto 15px;
+	}
+
+	#footertxt{
+		display: none;
+	}
+
+
+
+
+	/*G E N E R A L **************************************/
+
+	#container{
+		width: 100%;
+		height: auto;
+		height: 100%;
+		min-height: 100%;
+		margin: -27px auto 0px auto;
+		text-align: center;
+		padding-bottom: 100px;
+		background: #fff;
+		display: block;
+		float: left;
+	}
+
+	#content{
+		width: 100%;
+		height: auto;
+		height: 100%;
+		min-height: 100%;
+		padding: 0px;
+	}
+
+	.wrapper {
+	  min-height: 100%;
+	  /* equal to footer height */
+	  margin-bottom: -30px; 
+	}
+
+	.push{
+		height: 30px;
+	}
+
+	#mobgal{
+		display: block;
+	}
+
+	.compugal{
+		display: none;
+	}
+
+	#slides {
+	  overflow: hidden;
+	  width: 100%;
+	  height: 100%;
+	  min-height: 100%;
+	  margin: -130px auto -30px auto;
+	  position: relative;
+	}
+
+
+	/* P R O J E C T S *******************************************/
+
+	#galleria{
+		width: 100%;
+		height: 400px;
+		overflow: hidden;
+	}
+
+	#galleria img{
+		width: 100%;
+		height: auto;
+	}
+
+	.prevweb h2{
+		font-size: 15px;
+		line-height: 20px;
+		padding: 20px;
+	}
+
+	.galleria-info{
+		width: 100%;
+		color:#303030;
+		z-index:3;
+		text-align:center;
+		font-family: 'Cardo';
+	  	font-size: 14px;
+	  	font-style: italic;
+		padding-right: 23px;
+		position: relative;
+		background-color: #fff;
+		top: 383px;
+	}
+
+
+/* P R O J E C T S   I N D E X **************************************/
+	
+	.projcategory{
+		margin-top: 40px;
+	}
+
+	.catlink:hover + .catimg{
+		display: none;
+	}
+
+	#catdisplay section{
+		height: auto;
+		padding-bottom: 50px;
+	}
+
+	
+
+	.catfirstimg{
+		display: none;
+	}
+
+	.projlist ul{
+		border-left: none;
+	}
+
+	.projlist ul li{
+		margin-top: 8px;
+	}
+
+	.projcategory{
+		text-align: left;
+		font-size: 12pt;
+		font-weight: bold;
+		padding-left:20px;
+		margin-top: 50px;
+		line-height: 30px;
+	}
+
+
+	/* N E W S   C O N T E N T **************************************/
+
+
+	#newscontent{
+		width: 100%;
+		margin: 0px auto 0px auto;
+		background: #FFF;
+		padding:0px;
+		padding-bottom: 10px;
+	}
+
+	#newscontent #galleria{
+		height: 250px;
+	}
+
+	#newscontent .galleria-info{
+		top: 232px;
+	}
+
+
+	.newstitle{
+		margin: 20px auto;
+		width: 90%;
+	}
+
+	.newstitle:after{
+		content: '_______________________';
+		opacity: 0.7;
+	}
+
+	.newstxt{
+		width: 90%;
+		-webkit-column-count: 1; /* Chrome, Safari, Opera */
+	    -moz-column-count: 1; /* Firefox */
+	    column-count: 1;
+	    text-align: left;
+	    -webkit-column-gap: 0px; /* Chrome, Safari, Opera */
+	    -moz-column-gap: 0px; /* Firefox */
+	    column-gap: 0px;
+
+	}
+
+	.newstxt p{
+		margin-top: 10px;
+		text-indent: 15px;
+	}
+
+	.newstxt p:first-child{
+		margin-top: 0;
+		font-weight: 700;
+	}
+
+	.newstxt img{
+		width: 100%;
+		margin: 0 auto;
+		float: none;
+		margin: 15px auto 15px auto;
+	}
+
+	#newscolumn{
+	width: 90%;
+}
+
+	/* P R O J E C T S    I N D E X*******************************************/
+	
+	.projcategory{
+		display: none;
+	}
+
+	.projlist{
+		display: none;
+	}
+
+	.projlistmob{
+		width: 100%;
+		display: block;
+		margin-top: 30px;
+	}
+
+	.projlistmob ul{
+
+		border-top: 1px solid #303030;
+		border-bottom: 1px solid #303030;
+	}
+
+	.projlistmob ul li{
+		margin:13px auto;
+		text-transform: uppercase;
+		font-weight: normal;
+		font-size: 12px;
+	}
+
+	.subcattitmob{
+		display: block;
+		margin-bottom: 20px;
+		font-weight: bold;
+	}
+
+	.subcattitmob h2{
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.fur{
+		margin-top: 40px;
+	}
+
+	.thumbs{
+		width: 100%;
+		float: none;
+		margin: 10px auto 0 auto;
+	}
+
+	.tn{
+		float: none;
+		margin: 0 auto 20px auto;
+	}
+
+
+	#subcatbutton h2{
+		font-size: 15px;
+	}
+
+
+
+
+
+	/* A W A R D S *******************************************/
+
+	/* a w a r d s * * * * * * * * * */
+
+	#awards{
+		width: 100%;
+		padding: 0 0 0px 0;
+		margin: 20px auto 0 auto;
+		border-bottom: solid 1px #303030
+
+	}
+
+
+	#awards li{
+		width: 85%;
+		margin: 0px auto 20px auto;	
+		line-height: 15px;
+	}
+
+	#awards li p{
+		display: inline;
+		
+	}
+
+	#awards li:after{
+	display: none;
+}
+
+
+	/* c o m p e t i t i o n s * * * * * * * * * */
+
+	#competitions{
+		width: 100%;
+	}
+
+	#competitions h2:first-child{
+		width: 290px;
+		margin: 20px auto 0 auto;
+
+	}
+
+	#competitions h2:nth-child(2){
+		width: 290px;
+		margin: 0px auto;
+	}
+
+	#competitions ul{
+		width: 290px;
+		padding: 0px;
+		margin: 0 auto;
+		border-left: 0px;
+	}
+
+	#competitions ul li{
+		width: 230px;
+		float: none;
+		margin: 0 auto 20px auto;
+	}
+
+
+	/* P R A C T I C E *******************************************/
+
+	.practicetxt{
+		width: 90%;
+
+	}
+
+	.practicetxt img:first-child{
+		display: none;
+	}
+
+	.plink{
+		float: left;
+		margin-top: 0px;
+		-webkit-column-count: 1; /* Chrome, Safari, Opera */
+	    -moz-column-count: 1; /* Firefox */
+	    column-count: 1;
+	    text-align: left;
+	    -webkit-column-gap: 0px; /* Chrome, Safari, Opera */
+	    -moz-column-gap: 0px; /* Firefox */
+	    column-gap: 0px;
+	}
+
+	.practicetop{
+		width: 240px;
+		position: absolute;
+		top: 100px;
+	}
+
+	.catprac{
+		display: none;
+	}
+
+	
+	#practice{
+		margin-top: -170px;
+
+	}
+
+	#services {
+		margin-top: -200px;
+		text-transform: none;
+	}
+
+
+	.practicetxt #monograph h2:first-child{
+		text-align: center;
+		font-weight: bold;
+		margin-top: -80px;
+		text-transform: none;
+	}
+
+	.practicetxt #publications h2:first-child{
+		text-align: center;
+		font-weight: bold;
+		text-transform: none;
+	}
+
+	.practicetxt #publications{
+		margin-top: -100px;
+	}
+
+
+
+
+
+	/* l i n k s * * * * * * * * * */
+
+	#plinks{   
+	}
+
+	.plink h2{
+		font-size: 10pt;
+	}
+
+	.practicelinks{
+		float: none;
+		text-align: left;
+		font-size: 12pt;
+		font-weight: bold;
+		border-left: solid 2px #7E0E09;
+		padding-left:20px;
+		margin-top: 20px;
+		line-height: 30px;
+	}
+
+	.practicelinks li a{
+		color: #7E0E09;
+	}
+
+
+
+	.plink{
+		float: left;
+	}
+
+	.active{
+		display: block;
+	}
+	.hide{
+		display: none;
+	}
+
+	#plinks section{
+		margin: 20px auto;
+		padding: 14px 14px 40px 14px;
+	}
+
+
+	#practice h2:first-child{
+	margin-top: 160px;
+
+}
+
+	/* s e r v i c e s * * * * * * * * * */
+
+	#services{
+		padding-bottom: 40px;
+		text-indent: 0px;
+		margin-top: 70px;
+	}
+
+	#services p:first-child{
+		margin-top: -80px;
+
+	}
+
+	#services h2{
+		text-transform: uppercase;
+		margin: 20px auto 10px auto;
+	}
+
+
+	#services h3{
+		font-style: italic;
+		font-size: 10pt;
+		line-height: 14px;
+		margin-bottom: 10px;
+	}
+
+
+	/* m o n o g r a p h * * * * * * * * * */
+
+	#monograph h2:first-child{
+		margin-top: 90px;
+
+	}
+
+	.monobox{
+		margin: 30px auto;
+	    text-indent: 15px;
+	}
+
+	.monobox p{
+		margin-bottom: 15px;
+	}
+
+	.monobox h2{
+		margin-bottom: 15px;
+	}
+
+	#monograph{
+		margin-top: 70px;
+	}
+
+	#monograph .monobox h2:after{
+		content: ".";
+		display: none;
+	}
+
+	.monobox img{
+		max-width: 100%;
+		margin-bottom: 10px;
+	}
+
+
+	/* p u b l i c a t i o n s * * * * * * * * * */
+
+	#publications h2:first-child{
+		margin-top: 90px;
+
+	}
+
+	.pubox{
+		margin: 30px auto;
+	    text-indent: 15px;
+	}
+
+	.pubox p{
+		margin-bottom: 15px;
+	}
+
+
+	#publications{
+		margin-top: 70px;
+	}
+
+	#publications h2{
+		text-transform: uppercase;
+	}
+
+	/* C L I E N T S *******************************************/
+
+	.clientstxt{
+		width: 90%;
+		margin: 30px auto;
+		-webkit-column-count: 1; /* Chrome, Safari, Opera */
+	    -moz-column-count: 1; /* Firefox */
+	    column-count: 1;
+	    text-align: center;
+
+	}
+
+	.clients h2:first-child{
+		margin-top: 40px;
+	}
+
+	.clients ul li{
+		font-size: 12px;
+		margin-bottom: 10px;
+	}
+
+	.clients ul li:before{
+		content: none;
+	}
+
+	.clients h3:last-child{
+		padding-bottom: 50px;
+	}
+
+	.clients{
+		width: 100%;
+		padding-bottom: 90px;
+	}
+
+	/* P E R S O N N E L *******************************************/
+
+	#personnel h2:first-child{
+		margin-top: 40px;
+	}
+
+	.employee{
+		-webkit-column-count: 1; /* Chrome, Safari, Opera */
+	    -moz-column-count: 1; /* Firefox */
+	    column-count: 1;
+	    -webkit-column-gap: 0px; /* Chrome, Safari, Opera */
+	    -moz-column-gap: 0px; /* Firefox */
+	    column-gap: 0px;
+	}
+
+	.employee img{
+		width: 50%;
+		margin: 20px;
+		float: left;
+	}
+
+
+	/* C O N T A C T *******************************************/
+
+	#containercontact{
+		width: 100%;
+		height: auto;
+		height: 100%;
+		min-height: 100%;
+		margin: -27px auto 0px auto;
+		text-align: center;
+		padding-bottom: 70px;
+		background: #fff;
+		display: block;
+		float: left;
+	}
+
+	.categories .contactlinks{
+		display: none;
+	}
+
+	#contactus{
+		height: auto;
+		width: 100%;
+		margin: 0 auto;	
+	}
+
+	.recmap{
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	#map iframe{
+		width:100% ;
+	}
+
+	#contact{
+		width: 300px;
+		margin: 20px auto;
+		float: none;
+	}
+
+	#recruitment{
+		width: 100%;
+		margin: 20px auto;
+	}
+
+	.apply{
+		width: 80%;
+		margin: 0px auto;
+		float: none;
+	}
+
+	.joboffer{
+		width: 80%;
+		margin: 10px auto;
+		float: none;
+	}
+
+
+
+
+
+
+}
+
+@media only screen and (max-width: 400px) {
+
+	
