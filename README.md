@@ -6,6 +6,12 @@ This is a very, very old project. When I was asked by the studio to help with th
 
 [John Simpson Architects](http://www.johnsimpsonarchitects.com/) is an award-winning architectural practice in London.
 
+![JSA](JSA-projects.png)
+
+![JSA](JSA-about.png)
+
+![JSA](JSA-contact.png)
+
 ### Technologies
 
 * HTML.
